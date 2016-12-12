@@ -105,13 +105,13 @@ body {
     height: 100%;
     top: 0px;
     left: 0px;
-    background: url('../img/bg/2.jpg') center fixed;
+    background: url('../img/bg/product.png') center fixed;
     background-size: cover;
     z-index: 0;
 }
 
 #home-content {
-  background: rgba(0, 0, 0, 0.5);
+ 
   z-index: 10;
   position: relative;
   top: 0;
