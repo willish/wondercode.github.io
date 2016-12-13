@@ -21,7 +21,38 @@ body {
 
 /* Background images are set within the HTML using inline CSS, not here */
 
+.carousel-caption{
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom: 0px;
+}
 
+.carousel-caption h2{
+    background-color: #26A8DB;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+}
+
+.carousel-caption .heading{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    padding: 10px;    
+    text-align: left;
+}
+
+.carousel-caption .heading h1{
+    color: #19BBD5;
+
+}
+
+.carousel-caption .heading h3{
+    color: white;
+}
 
 
 .fill {
@@ -29,10 +60,10 @@ body {
     height: 100%;
     background-repeat: no-repeat;
     background-position: left;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    -o-background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 footer {
