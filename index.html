@@ -1,315 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Home</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <title>Full Slider - Start Bootstrap Template</title>
 
-<!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" href="css/jquery-ui.css" type='text/css' />
-<link rel="stylesheet" href="css/smoothbox.css" type='text/css' >
-<!-- //Custom Theme files -->
-<!-- js -->
-<script src="js/jquery.min.js"></script>
-<!-- //js -->
-<!--webfont-->
-<link href='googleapis-fonts/fonts.css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
-<link href='googleapis-fonts/fonts.css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- start-smoth-scrolling -->
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
+
 <body>
-<script src="js/jquery.vide.min.js"></script>
-	<div data-vide-bg="video/srix">
-		<div class="center-container">
-			<div class="navigation">
-				<div class="container">
-					<div class="" ="logo">
-						<img class="logo" src="images/logo.png"/>
-					</div>
-					<div class="navigation-right">
-						<span class="menu"><img src="images/menu.png" alt=" " /></span>
-						<nav class="link-effect-3" id="link-effect-3">
-							<ul class="nav1 nav nav-wil">
-								<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
-								<li><a data-hover="About" href="#about" class="scroll">About</a></li>
-								<li><a data-hover="Team" href="#team" class="scroll">Team</a></li>
-								<li><a data-hover="Contact" href="#contact" class="scroll">Contact</a></li>
-							</ul>
-						</nav>
-							<!-- script-for-menu -->
-								<script>
-								   $( "span.menu" ).click(function() {
-									 $( "ul.nav1" ).slideToggle( 300, function() {
-									 // Animation complete.
-									  });
-									 });
-								</script>
-							<!-- /script-for-menu -->
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-			<div class="w3ls_banner_info">
-				<div class="container">
-				
-					<h3>Education brings about opportunity, and in turn inspiration</h3>
-					<p>Empower teachers to bring code into their classrooms and give kids a playful start into their
-						technology-centric future</p>
-					<div class="more">
-						<a href="#" class="hvr-underline-from-center" data-toggle="modal" data-target="#myModal">Learn More</a>
-					</div>
-					<!--modal-video-->
-					<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									WonderCode
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-								</div>
-								<section>
-									<div class="modal-body">
-										<img src="images/w17.jpg" alt=" " class="img-responsive" />
-										<p>We want everyone involved with us to be so out of desire, not necessity, allowing WonderCode to perpetuate an environment conducive to collective and individual growth and creativity
-											<i>"WonderCode values ambition, creativity and innovation in everything we do; diversity, passion, perseverance and understanding in our people; and quality, transparency in our services.</i></p>
-									</div>
-								</section>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-<!-- about -->
-	<div class="about" id="about">
-		<div class="container">
-			<div class="agileits_about_grids">
-				<div class="col-md-6 agileits_about_grid_left">
-					<h3>What We Offer</h3>
-					<p>Teaching children the concepts of computer science is still a recent initiative and so the market
-					   lacks of products that would facilitate the learning.Computer science is just about learning technology Computer science is about logic, problem solving, and creativityBUSINESS PLAN - DECEMBER 2016 8 Most existing products are not appropriate for the youngest students’ use, and in any case, noneare suitable for classrooms.</p>
-					<p>We focus on delivering tangible programming products that will engage students
-					   in fun andcollaborative activities that develop their computational skills, while
-					   staying away from screens.</p>
-					
-				</div>
-				<div class="col-md-6 agileits_about_grid_right">
-					<img src="images/w1.png" alt=" " class="img-responsive" />
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-<!-- //about -->
 
-<!-- banner-bottom -->
-	<div class="banner-bottom" id="team">
-		<div class="container">
-			<div class="col-md-4 wthree_banner_bottom_left">
-				<img src="images/w8.png" alt=" " class="img-responsive" />
-			</div>
-			<div class="col-md-8 wthree_banner_bottom_right">
-				<h3>What empowers people to innovate and lead a better world?--EDUCATION</h3>
-				<p>Coding is an important TOOL for computer science, just like arithmetic is a TOOL for doing
-					mathematics, and words are a TOOL learning English. Nonetheless computer science is a broad
-					field encompassing deep concepts that go well beyond coding</p>
-				<ol>
-					<li>Transparency - Build open and honest relationships</li>
-					<li>Respect - Treat everyone with fairness and tolerance</li>
-					<li>Excellence - Aspire for quality in everything</li>
-					<li>Constant improvement - Embrace and drive change</li>
-					<li>Communication - True listening and understanding</li>
-					<li>Inspiration - Find inspiration and insp</li>
-				</ol>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-<!-- //banner-bottom -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-<!-- banner-bottom-image-text -->
-<!--
-	<div id="about" class="banner-bottom-image-text">
-		<div class="col-md-8 banner-bottom-image-text-left">
-			<h3>Who We Are</h3>
-			<p>WonderCode is an exciting start-up company that develops educational toys for kids to learn how
-			   to code in a very easy, fun and engaging way.</p>
-			 <p>Play is the mechanism by which children learn and experience their world engaging in activities
-                that encourage their cognitive, emotional and social development.</p>
+    <!-- Full Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-			<h4>Empower teachers to bring code into their classrooms and give kids a playful start into their
-                technology-centric future</h4>
-		</div>
-		<div class="col-md-4 banner-bottom-image-text-right">
-			<img src="images/w6.png" alt=" " class="img-responsive" />
-		</div>
-		<div class="clearfix"> </div>
-	</div>
--->
-<!-- //banner-bottom-image-text -->
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
 
-<!-- testimonials -->
-<!--
-	<div id="team">
-		<div class="container">
-			<h3 align="center" margin-top="20px">Meet Our Team</h3>
-			<p class="nostrud">Our team of software and electronic engineers, teachers and business-minded people aims at
-designing and developing educational solutions that will enable teachers to teach the concepts of
-computer science into their classrooms for kids as young as kindergarteners.</p>
-			<div class="testimonials-grids">
-				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-					<ul id="myTab" class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#home" role="tab" id="home-tab" data-toggle="tab" aria-controls="home">Amandine</a></li>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
 
-						<li role="presentation" ><a href="#Will" id="Will-tab" role="tab" data-toggle="tab" aria-controls="Will" aria-expanded="true">Will</a></li>
+    </header>
 
-						<li role="presentation"><a href="#Derek" role="tab" id="Derek-tab" data-toggle="tab" aria-controls="Derek">Derek</a></li>
+    <!-- Page Content -->
+    <div class="container">
 
-						<li role="presentation" class="#Sven"><a href="#Sven" id="Sven-tab" role="tab" data-toggle="tab" aria-controls="Sven" aria-expanded="true">Sven</a></li>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Full Slider by Start Bootstrap</h1>
+                <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the <code>full-slider.css</code>file.</p>
+            </div>
+        </div>
 
-						<li role="presentation"><a href="#Eva" role="tab" id="Eva-tab" data-toggle="tab" aria-controls="Eva">Eva</a></li>
+        <hr>
 
-						<li role="presentation"><a href="#Alex" role="tab" id="Alex-tab" data-toggle="tab" aria-controls="Alex">Alex</a></li>
-					</ul>
-					<div id="myTabContent" class="tab-content">
-						<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
-							<div class="tabcontent-grids">
-								<img src="images/Amandine.jpg" alt=" " class="img-responsive" />
-								<h4>AMANDINE<span>Chief Executive Officer</span></h4>
-								<p>Amandine’s study of international management and leadership will guide the strategic vision of WonderCode towards operational success.</p>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="Will" aria-labelledby="Will-tab">
-							<div class="tabcontent-grids">
-								<img src="images/Will.jpg" alt=" " class="img-responsive" />
-								<h4>Will<span>Chief Technology Officer</span></h4>
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse 
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-									cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-									anim id est laborum.</p>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="Derek" aria-labelledby="Derek-tab">
-							<div class="tabcontent-grids">
-								<img src="images/Derek.jpg" alt=" " class="img-responsive" />
-								<h4>MU YUN (DEREK)<span>Chief Business Development Officer</span></h4>
-								<p>Derek’s dual background in business and computer engineering will set the foundation for a dynamic and agile business model and innovative technology implementation into our products.</p>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="Sven" aria-labelledby="Sven-tab">
-							<div class="tabcontent-grids">
-								<img src="images/Sven.jpg" alt=" " class="img-responsive" />
-								<h4>Sven<span>Product Manager</span></h4>
-								<p>Dual background in business and engineering</p>
-								<p>Diverse personal and educational background</p>
-								<p>Management</p>
-								<p>Product development</p>
-								<p>User Experience</p>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="Eva" aria-labelledby="Eva-tab">
-							<div class="tabcontent-grids">
-								<img src="images/eva.jpg" alt=" " class="img-responsive" />
-								<h4>EVA<span>Makerting</span></h4>
-									<p>Key industries analyzer</p>
-									<p>Investment – experienced in research, support and customer relation</p>
-									<p>Strong professional and personal network</p>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="Alex" aria-labelledby="Alex-tab">
-							<div class="tabcontent-grids">
-								<img src="images/Alex.jpg" alt=" " class="img-responsive" />
-								<h4>Alex <span>Product Designer</span></h4>
-								<p>Technical support </p>
-								<p>Embedded system design</p>
-								<p>Extensive practical experience</p>
-								<p>Great interest in Maker education</p>
-								<p>Experienced in teaching kids</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
--->
-<!-- //testimonials -->
-	
-<!-- //team-bottom -->
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
 
+    </div>
+    <!-- /.container -->
 
-<!-- contact -->
-	<div class="contact" id="contact">
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-		<div class="col-md-6 w3agile_contact_left">
-			<h3>Contact Us</h3>
-			<p>Excepteur sint occaecat cupidatat non proident, sunt 
-				in culpa qui officia deserunt mollit anim id est laborum reprehenderit in voluptate velit esse 
-				cillum dolore eu fugiat nulla pariatur.</p>
-			<form action="#" method="post">
-				<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-				<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-				<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-				<input type="submit" value="Send">
-			</form>
-		</div>
-		<div class="col-md-6 w3agile_contact_right">
-		<a href="#"><img class="logo" src="images/logo.png"/></a>
-			<div class="col-xs-6 w3agile_contact_right_agileinfo">
-				<h4>Contact Info</h4>
-				<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>TusStar Incubator - Jingrong Town, Pixian County, Chengdu city (Sichuan Province, PRC)</p>
-				<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>(+) 136 6615 6635</p>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-				<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="Amandine@WonderCode.com">Amandine@WonderCode.com</a></p>
-			</div>
-			
-			<div class="clearfix"> </div>
-			<div class="w3_copy_right">
-				<p>Copyright &copy; 2016.WonderCode All rights reserved.</p>
-			</div>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-<!-- //contact -->
-<!-- for bootstrap working -->
-<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
-<!-- //here ends scrolling icon -->
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
 </body>
+
 </html>
