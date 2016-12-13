@@ -9,6 +9,14 @@ body {
     height: 100%;
 }
 
+.navbar{
+    //background-color: #2298c6;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #ffffff;
+}
+
 .carousel,
 .item,
 .active {
